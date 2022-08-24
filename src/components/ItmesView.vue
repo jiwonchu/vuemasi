@@ -139,8 +139,25 @@ disableOnInteraction:false,
     }
   }
 </script>
-
 <style>
+  .sw-items-pg .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    opacity: 0.5;
+    margin: 5px;
+    border-radius: 5px;
+
+    transition: all 0.5s;
+  }
+
+  .sw-items-pg .swiper-pagination-bullet-active {
+    width: 30px;
+    background-color: hotpink;
+    opacity: 1;
+  }
+</style>
+<style scoped>
   /* items */
   .items {
     position: relative;
@@ -277,22 +294,7 @@ disableOnInteraction:false,
     z-index: 9;
   }
 
-  .sw-items-pg .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    opacity: 0.5;
-    margin: 5px;
-    border-radius: 5px;
 
-    transition: all 0.5s;
-  }
-
-  .sw-items-pg .swiper-pagination-bullet-active {
-    width: 30px;
-    background-color: hotpink;
-    opacity: 1;
-  }
 
 
   /* 링크 */
